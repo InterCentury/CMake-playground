@@ -4,7 +4,7 @@ int main() {
     double num1, num2;
     char op;
 
-    std::cout << "Simple C++ Calculator\n";
+    std::cout << "Simple C++ Calculator" << std::endl;
     std::cout << "Enter an expression (e.g., 4 + 5): ";
     std::cin >> num1 >> op >> num2;
 
