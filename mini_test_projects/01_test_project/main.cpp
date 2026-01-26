@@ -21,12 +21,12 @@ using namespace std;
 // data models 
 
 struct OSData {
-    :string name;
-    :string arch;
+    string name;
+    string arch;
 };
 
 struct CPUData {
-    :string name;
+    string name;
     int cores;
 };
 
@@ -86,14 +86,14 @@ public:
 
 class Printer {
 public:
-    static :string renderOS(const OSData& os) {
-        :ostringstream ss;
+    static string renderOS(const OSData& os) {
+        ostringstream ss;
         ss << "OS  : " << os.name << " (" << os.arch << ")";
         return ss.str();
     }
 
-    static :string renderCPU(const CPUData& cpu) {
-        :ostringstream ss;
+    static string renderCPU(const CPUData& cpu) {
+        ostringstream ss;
         ss << "CPU : " << cpu.name << " (" << cpu.cores << " cores)";
         return ss.str();
     }
@@ -109,8 +109,8 @@ int main() {
     CPUData cpu = CPUInfo::collect();
 
     // Render output
-    :cout << Printer::renderOS(os) << "\n";
-    :cout << Printer::renderCPU(cpu) << "\n";
+    cout << Printer::renderOS(os) << "\n";
+    cout << Printer::renderCPU(cpu) << "\n";
 
     return 0;
 }
