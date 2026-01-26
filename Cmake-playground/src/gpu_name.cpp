@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
- 
+
+using namespace std;
  
 // #include <dxgi.h> it requires windows sdk 
 #if defined(_WIN32)
@@ -10,7 +11,7 @@
 #elif defined(__linux__) || defined(__APPLE__)
     #include <array>
     #include <memory>
-#endif
+#endif 
 
 std::string getGPUName() {
 #if defined(_WIN32)
