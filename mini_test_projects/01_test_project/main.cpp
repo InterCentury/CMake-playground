@@ -2,6 +2,7 @@
 #include <string>
 #include <sstream>
 
+using namespace std;
 
  //  Platform Detection
  //  I can use this method for bianryfetch too...not bad 
