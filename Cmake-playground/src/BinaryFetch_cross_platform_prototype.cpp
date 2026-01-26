@@ -2,9 +2,9 @@
 #include <string>
 #include <sstream>
 
-/* ============================
-   Platform Detection
-   ============================ */
+
+ //  Platform Detection
+ //  I can use this method for bianryfetch too...not bad 
 
 #if defined(_WIN32)
     #define BF_WINDOWS
