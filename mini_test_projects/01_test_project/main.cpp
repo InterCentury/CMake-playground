@@ -79,9 +79,9 @@ public:
     }
 };
 
-/* ============================
-   Output Layer
-   ============================ */
+
+  //  Output Layer
+
 
 class Printer {
 public:
