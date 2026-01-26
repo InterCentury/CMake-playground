@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-
-
+ 
+ 
 // #include <dxgi.h> it requires windows sdk 
 #if defined(_WIN32)
     #include <Windows.h>
