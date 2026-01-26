@@ -1,0 +1,10 @@
+^H:\PROGRAMMING\PROJECTS\CMAKE-PLAYGROUND\CMAKE-PLAYGROUND\MINI_TEST_PROJECTS\02_TEST_PROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/02_test_project -BH:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/02_test_project/build --check-stamp-file H:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/02_test_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
