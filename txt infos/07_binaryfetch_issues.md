@@ -128,7 +128,7 @@ BinaryFetch is a **system information tool** written in C++ with a Windows focus
 
 ---
 
-This document can serve as a **living issue tracker**. Every time a new blocker appears, you can add a line under “Current Issues” so it’s all in one place instead of scattered notes 😎.
+
 
 
 
