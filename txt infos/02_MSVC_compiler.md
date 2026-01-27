@@ -1,6 +1,6 @@
 
 
-
+bruh....I got these form chatgpt
 
 ## What is MSVC?
 
