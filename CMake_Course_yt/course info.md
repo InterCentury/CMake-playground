@@ -1,0 +1,1 @@
+course link: [ CMake Tutorial for Absolute Beginners - From GCC to CMake including Make and Ninja ](https://youtu.be/NGPo7mz1oa4)
