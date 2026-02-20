@@ -1,0 +1,10 @@
+^H:\PROGRAMMING\PROJECTS\CMAKE-PLAYGROUND\CMAKE-PLAYGROUND\MINI_TEST_PROJECTS\04_NVAPI_LINK\OUTPUT\CMAKEFILES\18F9E61984535DEE233F2B3E71E291FC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link -BH:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link/output --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link/output/NvapiLinkTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

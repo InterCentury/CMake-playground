@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\programming\projects\CMake-playground\CMake-playground\mini_test_projects\04_Nvapi_link\output\CMakeFiles\18f9e61984535dee233f2b3e71e291fc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A727ED6A-395D-3509-9669-29C8544B2F40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

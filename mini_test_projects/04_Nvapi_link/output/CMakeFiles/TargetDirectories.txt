@@ -1,0 +1,3 @@
+H:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link/output/CMakeFiles/NvapiLinkTest.dir
+H:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link/output/CMakeFiles/ALL_BUILD.dir
+H:/programming/projects/CMake-playground/CMake-playground/mini_test_projects/04_Nvapi_link/output/CMakeFiles/ZERO_CHECK.dir
