@@ -76,7 +76,7 @@ cmake --build build -- -j4  # For Makefiles/Ninja
 #### Makefiles (Unix/Linux/macOS)
 ```bash
 cd build
-make                    # Build default target
+make                   # Build default target
 make -j4               # Build with 4 parallel jobs
 make myapp             # Build specific target
 make VERBOSE=1         # Build with verbose output
@@ -86,7 +86,7 @@ make clean             # Clean build files
 #### Ninja
 ```bash
 cd build
-ninja                   # Build default target
+ninja                  # Build default target
 ninja -j4              # Build with 4 parallel jobs
 ninja myapp            # Build specific target
 ninja -v               # Build with verbose output
